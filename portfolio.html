@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>About Me</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="Stylesheets/about.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <a href="index.html">
+    <nav id="desktop-nav">
+      <div class="logo"><img src="Images/Logo.png"></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <nav id="hamburger-nav">
+      <div class="logo"><img src="Images/Logo.png"></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#portfolio" onclick="toggleMenu()">Portfolio</a></li>
+          <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav><!-- .navbar -->
+
+    <!-- ======= My Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>portfolio</h2>
+        </div>
+
+        <ul id="portfolio-flters" class="d-flex justify-content-center">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">UI/UX</li>
+          <li data-filter=".filter-card">Illustration</li>
+          <li data-filter=".filter-web">Web</li>
+        </ul>
+
+        <div class="row portfolio-container"> 
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="Images/Content/uiux.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Where's My Burger!?</h4>
+              <p>Individual assignment for C218 UI/UX Design for Apps</p>
+              <a href="wheresmyburger.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="Images/Content/web2.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>World Xplore</h4>
+              <p>Individual assignment for C219 Front-End Web Development</p>
+              <a href="worldxplore.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="Images/Content/uiux2.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>TOUCH Community Services</h4>
+              <p>Individual assignment for C218 UI/UX Design for Apps</p>
+              <a href="touch.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="Images/Content/web3.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Islands in Singapore</h4>
+              <p>Individual assignment for C346 Mobile App Development</p>
+              <a href="islands.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="Images/Content/uiux3.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Portfolio Design for Mobile</h4>
+              <p>Graded assignment for C218 UI/UX Design for Apps</p>
+              <a href="portfoliodesign.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="Images/Content/illustration2.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Personal Poster</h4>
+              <p>Graded assignment for T252 Fundamental of Design</p>
+              <a href="personal.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="Images/Content/illustration3.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Singapore Exhibition Poster</h4>
+              <p>Individual assignment for T252 Fundamental of Design</p>
+              <a href="exhibition.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="Images/Content/songlist.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Song List Application</h4>
+              <p>Individual assignment for C346 Mobile App Development</p>
+              <a href="songlist.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="Images/Content/toy.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Little Toy Kingdom</h4>
+              <p>Individual assignment for C219 Front-End Web Development</p>
+              <a href="toy.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End My Portfolio Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Nurmarsyita. All Rights Reserved.</p>
+  </footer><!-- End Footer -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>

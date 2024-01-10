@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="Stylesheets/style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+  <a href="index.html">
+  <nav id="desktop-nav">
+    <div class="logo"><img src="Images/Logo.png"></div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="hamburger-nav">
+    <div class="logo"><img src="Images/Logo.png"></div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+        <li><a href="portfolio.html" onclick="toggleMenu()">Portfolio</a></li>
+        <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+        <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="intro">
+    <div class="section_pic-container2">
+      <img src="Images/background.png" alt="intro">
+    </div>
+  </section>
+
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">about me</p>
+      <div class="section-container">
+        <div class="section_pic-container3">
+          <img src="Images/me.png" alt="profile picture" class="about-pic">
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>As a student at Republic Polytechnic, I am currently <br> studying Digital Design and Development. 
+              I am <br> passionate about UI/UX design and web development. <br> I believe these skills are essential in today's digital world. 
+            <br> I am looking forward to using my knowledge to create meaningful projects.
+            </p>
+            <div class="btn-container">
+              <button class="btn1 btn-color-2" onclick="location.href='about.html'">Know me more!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Works</p>
+    <h1 class="title">portfolio</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="Images/5.jpg"
+              alt="UI/UX Design"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">UI/UX Design</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='portfolio.html'">
+              Show More
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="Images/6.jpg""
+              alt="Illustrations"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Illustrations</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='portfolio.html'">
+              Show More
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="Images/7.jpg"
+              alt="Web Development"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Web Development</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='portfolio.html'">
+              Show More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">contact me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="Images/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:22038005@myrp.edu.sg">22038005@myrp.edu.sg</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="Images/github.png"
+          alt="Github icon"
+          class="icon contact-icon"
+        />
+        <p><a href="https://github.com/Nurmarsyita?tab=repositories">Github</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Nurmarsyita. All Rights Reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>

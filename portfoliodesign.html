@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="Stylesheets/details.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+
+  <a href="index.html">
+    <nav id="desktop-nav">
+      <div class="logo"><img src="Images/Logo.png"></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <nav id="hamburger-nav">
+      <div class="logo"><img src="Images/Logo.png"></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="portfolio.html" onclick="toggleMenu()">Portfolio</a></li>
+          <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+  
+    <div class="main-title">
+    <h1>Portfolio Design for Mobile</h1>
+    </div>
+
+      <div class="container">
+      <div class="video-container">
+            <video id="myVideo" muted autoplay playsinline>
+              <source src="Images/Content/2023-08-04 18-31-14.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+      <div class="main-title">
+        <h1>brand story</h1>
+      </div>
+
+      <div class="main-body">
+        <p>
+          My passion is to become a UI/UX designer who loves creating beautiful and user-friendly <br>
+          interfaces for the web. Using design to solve real-world problems and improve people's lives <br>
+           is something I'm passionate about. My app, "The Mars Studio", is a portfolio of my work. <br>
+           It showcases my skills and experience in UI design for the web. It is my hope that by sharing <br>
+           my portfolio I will be able to share my story and interest in becoming a UI designer.</p>
+      </div>
+
+      <div class="main-title">
+        <h1>more details</h1>
+      </div>
+
+      <div class="main-body">
+        <p>
+          As part of our graded assignment, we were tasked with creating our own portfolio design for a <br>
+          mobile device. Only little information was given as this is solely part of our creativity to create a <br>
+          user friendly mobile application for yourself. As this is about myself, I added a lot of things that <br>
+          are related to being like, the colors, the small details of planets and stars and much more. I wanted <br>
+           to create something that would reflect my personality, so I decided to include a lot of personal touches. <br>
+           I also added a few cool animations to make the interface more interesting and interactive. </p>
+      </div>
+
+      <div class="main-title">
+        <h1>typography</h1>
+      </div>
+
+      <section id="contact">
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <p><a href="#">Lato Regular</p>
+          </div>
+          <div class="contact-info-container">
+            <p><a href="#">Pacifico Bold</a></p>
+          </div>
+        </div>
+      </section>
+
+      <div class="main-title">
+        <h1>color scheme</h1>
+      </div>
+
+      <section id="contact">
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <p><a href="#">#94BDF2</p>
+          </div>
+          <div class="contact-info-container">
+            <p><a href="#">#F2BE5C</a></p>
+          </div>
+          <div class="contact-info-container">
+            <p><a href="#">#F2EFE9</a></p>
+          </div>
+          <div class="contact-info-container">
+            <p><a href="#">#F23827</a></p>
+          </div>
+          <div class="contact-info-container">
+            <p><a href="#">#F26457</a></p>
+          </div>
+        </div>
+      </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="Stylesheets/details.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+
+  <a href="index.html">
+    <nav id="desktop-nav">
+      <div class="logo"><img src="Images/Logo.png"></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <nav id="hamburger-nav">
+      <div class="logo"><img src="Images/Logo.png"></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="portfolio.html" onclick="toggleMenu()">Portfolio</a></li>
+          <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+  
+    <div class="main-title">
+    <h1>World Xplore</h1>
+    </div>
+
+      <div class="container">
+      <div class="video-container">
+            <video id="myVideo" muted autoplay playsinline>
+              <source src="Images/Content/index.html - Google Chrome 2023-11-09 20-49-46.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+      <div class="main-title">
+        <h1>brand story</h1>
+      </div>
+
+      <div class="main-body">
+        <p>
+          As part of our class, we were taught how to create interactive websites with a variety of screens. <br>
+          Therefore, we were given the task of creating an interactive website based on our creativity. We were <br>
+          expected to create a website that was easy to navigate, had an interesting layout, and included content <br>
+          that users could interact with. We also needed to make sure our website was visually appealing and user-friendly. <br>
+          We needed to make our website responsive, so that it would work on any screen size.</p>
+      </div>
+
+      <div class="main-title">
+        <h1>typography</h1>
+      </div>
+
+      <section id="contact">
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <p><a href="#">Poppins</p>
+          </div>
+      </section>
+
+      <div class="main-title">
+        <h1>color scheme</h1>
+      </div>
+
+      <section id="contact">
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <p><a href="#">#FFF</p>
+          </div>
+          <div class="contact-info-container">
+            <p><a href="#">#000</a></p>
+          </div>
+          <div class="contact-info-container">
+            <p><a href="#">#CCC</a></p>
+          </div>
+          <div class="contact-info-container">
+            <p><a href="#">#F9F9F9</a></p>
+          </div>
+          <div class="contact-info-container">
+            <p><a href="#">#4A6741</a></p>
+          </div>
+        </div>
+      </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
