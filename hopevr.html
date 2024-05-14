@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="Stylesheets/details.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+
+  <a href="index.html">
+    <nav id="desktop-nav">
+      <div class="logo"><img src="Images/Logo.png"></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <nav id="hamburger-nav">
+      <div class="logo"><img src="Images/Logo.png"></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="portfolio.html" onclick="toggleMenu()">Portfolio</a></li>
+          <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+  
+    <div class="main-title">
+    <h1>Hope: VR Escape Room Game</h1>
+    </div>
+
+      <div class="container">
+      <div class="video-container">
+            <video id="myVideo" muted autoplay playsinline>
+              <source src="Images/Content/C337_EscapeRoom_Nurmarsyita_222038005_Video.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+      <div class="main-title">
+        <h1>Overview</h1>
+      </div>
+
+      <div class="main-body">
+        <p>
+            Hope is a virtual reality escape room game full of different puzzles. An individual grappling with various life challenges is trapped in their <br>
+            own room, unable to move on, as the game delves into their poignant journey. As they explore their surroundings, they uncover fragments <br> 
+            of realisation, of their past, hidden clues and forgotten memories. They embark on a quest to escape their self-imposed isolation <br> 
+            and break free from the shackles of their dark mind. <br><br>
+            Players have to step into the protagonist's world and experience their emotions and explore their room, <br> 
+            uncovering clues that come to realisation and reveal their past and motivations. Players have to solve different types <br> 
+            of puzzles that are deeply intertwined with the protagonist's memories and represent their journey towards self-discovery and acceptance. <br>
+      </div>
+
+      <div class="main-title">
+        <h1>Application Used</h1>
+      </div>
+
+      <section id="contact">
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <p><a href="#">Unity</a></p>
+          </div>
+        </div>
+      </section>
+
+      <div class="main-title">
+        <h1>Moodboard</h1>
+      </div>
+
+      <div class="container">
+        <div class="image-container">
+          <img src="Images/Content/storyboard_vr.png">
+          <img src="Images/Content/storyboard_vr2.png">
+          <img src="Images/Content/storyboard_vr3.png">
+          <img src="Images/Content/storyboard_vr4.png">
+          <img src="Images/Content/storyboard_vr5.png">
+          <img src="Images/Content/storyboard_vr6.png">
+        </div>
+        <br>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
